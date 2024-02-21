@@ -24,10 +24,10 @@ body {
 }
 
 .container__title {
-    font-size: 56px;
+    font-size: 48px;
     text-shadow: 2px 2px 2px black;
     text-transform: uppercase;
-    margin-bottom: 0;
+    padding-bottom: 15px;
 
 }
 
@@ -122,3 +122,53 @@ body {
     padding: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+
+    
+    .menu {
+        height: 500px;
+        background-size: cover;
+        background-position:bottom;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+    }
+
+    .menu__text {
+        width: max-content;
+        text-align: left;
+        padding: 2px 0 0 80px;
+    }
+
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container__title {
+        font-size: 38px;
+        padding-bottom: 30px;
+    }
+
+    .container__subtitle {
+        font-size: 14px;
+        width: max-content;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+
+        }
+    }
+    }
+  
